@@ -1,0 +1,44 @@
+# Python environments
+venv/
+env/
+.env
+.venv
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dll
+
+# App Runtime & Database Files
+config/settings.json
+config/plugins/
+config/profiles/
+database/*.db
+database/*.db-journal
+database/*.db-wal
+database/*.db-shm
+
+# AI Model weights (Large files, should be downloaded at runtime)
+*.pt
+yolov8*.pt
+
+# Logs
+logs/
+*.log
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# PyInstaller / Build folders (if used later)
+build/
+dist/
+*.egg-info/
