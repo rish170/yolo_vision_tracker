@@ -97,8 +97,7 @@ yolo_vision_tracker/
 │   └── yolo_detector.py             # Wrapper for Ultralytics YOLOv8 inference.
 │
 ├── tracking/
-│   ├── deepsort_tracker.py          # Handles ID assignment across sequential frames.
-│   └── trajectory_manager.py        # Logs paths for future Heatmap/Replay generation.
+│   └── deepsort_tracker.py          # Handles ID assignment across sequential frames.
 │
 ├── services/
 │   ├── event_logger.py              # Bridges the Alert Engine and the Database.
