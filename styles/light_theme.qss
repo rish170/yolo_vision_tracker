@@ -1,0 +1,38 @@
+
+/* Light Theme V1 */
+QWidget {
+    background-color: #ffffff;
+    color: #1e293b;
+    font-family: 'Segoe UI', Inter, sans-serif;
+    font-size: 14px;
+}
+QMainWindow {
+    background-color: #f8fafc;
+}
+QPushButton {
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 8px 16px;
+    color: #0f172a;
+}
+QPushButton:hover {
+    background-color: #3b82f6;
+    color: white;
+    border: 1px solid #2563eb;
+}
+QLabel {
+    background: transparent;
+}
+/* Sidebars and Panels */
+#Sidebar, #AnalyticsPanel {
+    background-color: rgba(241, 245, 249, 0.8);
+    border-right: 1px solid #e2e8f0;
+    border-left: 1px solid #e2e8f0;
+}
+/* Cards */
+.StatCard {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}

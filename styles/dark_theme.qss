@@ -1,0 +1,38 @@
+
+/* Dark Theme V1 (AntiGravity Grey) */
+QWidget {
+    background-color: #1e1e1e;
+    color: #cccccc;
+    font-family: 'Segoe UI', Inter, sans-serif;
+    font-size: 14px;
+}
+QMainWindow {
+    background-color: #1e1e1e;
+}
+QPushButton {
+    background-color: #333333;
+    border: 1px solid #454545;
+    border-radius: 6px;
+    padding: 8px 16px;
+    color: #cccccc;
+}
+QPushButton:hover {
+    background-color: #007acc;
+    border: 1px solid #0098ff;
+    color: white;
+}
+QLabel {
+    background: transparent;
+}
+/* Sidebars and Panels */
+#Sidebar, #AnalyticsPanel {
+    background-color: #252526;
+    border-right: 1px solid #333333;
+    border-left: 1px solid #333333;
+}
+/* Cards */
+.StatCard {
+    background-color: #2d2d2d;
+    border: 1px solid #3e3e42;
+    border-radius: 8px;
+}
